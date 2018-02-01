@@ -1,0 +1,52 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.bids-container,
+.asks-container,
+.trades-container {
+  width: 100%;
+}
+
+.tables {
+  min-height: 570px;
+  display: flex;
+  flex-direction: row;
+  background-color: #1c272e;
+}
+
+table {
+  border: #A4A9AC solid 2px;
+  margin: 5px;
+}
+
+table td {
+  text-align: center;
+}
+
+thead, tbody {
+  border: #A4A9AC solid 2px;
+}
+
+.tables tr {
+  color: #A4A9AC;
+}
+
+.controls {
+  text-align: center;
+  padding: 20px;
+}
+
+.controls button {
+  margin: 0 10px;
+}
+
+.status {
+  padding: 10px;
+}
+
+body {
+  margin:0;
+  padding:0;
+}
